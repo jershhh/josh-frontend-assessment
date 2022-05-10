@@ -1,0 +1,42 @@
+.gif-wrap {
+    margin:3px;
+    height:auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gif-wrap .gif-url-section {
+    padding:10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    min-height:104px;
+}
+
+.gif-wrap .gif-url-info p {
+     max-width: fit-content;
+     font-size:11px;
+     color: #1b1b1b;
+}
+
+.gif-wrap .gif-url-info p span {
+    font-weight:bold;
+}
+
+.gif-wrap button {
+    border-radius:30px;
+    border:0;
+    padding: 6px 20px;
+    margin-top:12px;
+    cursor: pointer;
+    width:100%;
+    background-color: #555555;
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+.gif-wrap button:hover {
+    background-color: #9a9995;
+    color:#000000;
+}

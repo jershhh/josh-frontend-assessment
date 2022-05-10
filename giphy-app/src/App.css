@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height:100%;
+}
+
+body {
+  background: rgb(204,204,204);
+  background: -moz-linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body h1 {
+  font-size:28px;
+  text-align: center;
+}
+
+body h2 {
+  font-size:19px;
+}
+
+.app {
+  display:flex;
+  justify-content:center;
+}
+
+.main {
+  width:1150px;
+  margin: 20px 10px;
+}
