@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+.gif-wrap img {
+   width:100%;
+}
+
 .gif-wrap .gif-url-section {
     padding:10px;
     display: flex;
