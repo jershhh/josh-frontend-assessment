@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
 
-    axios(`http://api.giphy.com/v1/gifs/search?q=${query}&limit=10&api_key=4hbFOPdn6QvIJZQdvO0vyxRmM7Nflgtc`)
+    axios(`https://api.giphy.com/v1/gifs/search?q=${query}&limit=10&api_key=4hbFOPdn6QvIJZQdvO0vyxRmM7Nflgtc`)
       .then(response => setData(response.data.data))
       .catch(error => console.log('ERROR FETCHING', error));
   }, [query]);
