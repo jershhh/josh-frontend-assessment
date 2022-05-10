@@ -6,7 +6,7 @@ import GiphyList from "./components/GiphyList";
 
 function App() {
    const [data, setData] = useState([]);
-   const [query, setQuery] = useState('pikachu');
+   const [query, setQuery] = useState('squirtle');
  
    const search = (value) => setQuery(value);
 
