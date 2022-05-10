@@ -1,7 +1,7 @@
 import React from "react";
 import "./GiphyItem.css";
 
-const GiphyItem = (props) => {
+const GiphyItem = props => {
 
   function copyGiphyLink(e) {
     e.preventDefault();
