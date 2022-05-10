@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Searchbar.css";
 
 
-function Searchbar(props) {
+const Searchbar = props => {
 const [searchText, setSearchText] = useState('');
 
 const searchChangeQuery = (e) => setSearchText(e.target.value);
